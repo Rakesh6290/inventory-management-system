@@ -10,7 +10,7 @@ A backend application built using Flask to manage suppliers and inventory, with 
 * Flask
 * Flask-SQLAlchemy
 * SQLite
-* Docker (optional)
+* Docker 
 
 ---
 
@@ -200,17 +200,21 @@ docker run -p 5000:5000 inventory-app
 ---
 Add Supplier API
 (POST /supplier request and response)
+
 ![alt text](<Screenshot (32).png>)
 
 Add Inventory API
 (POST /inventory with validation checks)
+
 ![alt text](<Screenshot (33).png>)
 
 Get Inventory
 (GET /inventory showing all items)
+
 ![alt text](<Screenshot (34).png>)
 
 Inventory Summary
 (Grouped by supplier, sorted by total value)
+
 ![alt text](<Screenshot (35).png>)
 
